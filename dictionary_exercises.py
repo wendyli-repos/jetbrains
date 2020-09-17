@@ -115,3 +115,14 @@ band = ChainMap(stringed_instruments, percussion_instruments)
 print(band.parents)  # Solution 1
 print()
 print(band.maps[1])  # Solution 2
+
+# Question 10: What is the output of the following code
+person1 = ("James", "Ryan")
+person2 = ("Ryan", "James")
+person3 = ("Ryan", "James")
+age_dict = {}
+age_dict[person1] = 36
+age_dict[person2] = 27
+age_dict[person3] = 42
+
+print(age_dict[person2])
